@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -79,22 +79,22 @@
 </packages>
 <symbols>
 <symbol name="FYQ-5641">
-<pin name="LED-E" x="-5.08" y="12.7" length="middle" rot="R180"/>
-<pin name="LED-D" x="-5.08" y="10.16" length="middle" rot="R180"/>
-<pin name="LED-DP" x="-5.08" y="7.62" length="middle" rot="R180"/>
-<pin name="LED-C" x="-5.08" y="5.08" length="middle" rot="R180"/>
-<pin name="LED-G" x="-5.08" y="2.54" length="middle" rot="R180"/>
-<pin name="DIG-4" x="-5.08" y="0" length="middle" rot="R180"/>
-<pin name="LED-B" x="5.08" y="0" length="middle"/>
-<pin name="DIG-3" x="5.08" y="2.54" length="middle"/>
-<pin name="DIG-2" x="5.08" y="5.08" length="middle"/>
-<pin name="LED-F" x="5.08" y="7.62" length="middle"/>
-<pin name="LED-A" x="5.08" y="10.16" length="middle"/>
-<pin name="DIG-1" x="5.08" y="12.7" length="middle"/>
-<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="15.24" width="0.254" layer="94"/>
-<wire x1="5.08" y1="15.24" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="15.24" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<pin name="LED-E" x="-10.16" y="5.08" length="middle"/>
+<pin name="LED-D" x="-10.16" y="7.62" length="middle"/>
+<pin name="LED-DP" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="LED-C" x="-10.16" y="10.16" length="middle"/>
+<pin name="LED-G" x="-10.16" y="0" length="middle"/>
+<pin name="DIG-4" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="LED-B" x="-10.16" y="12.7" length="middle"/>
+<pin name="DIG-3" x="22.86" y="10.16" length="middle" rot="R180"/>
+<pin name="DIG-2" x="22.86" y="12.7" length="middle" rot="R180"/>
+<pin name="LED-F" x="-10.16" y="2.54" length="middle"/>
+<pin name="LED-A" x="-10.16" y="15.24" length="middle"/>
+<pin name="DIG-1" x="22.86" y="15.24" length="middle" rot="R180"/>
+<wire x1="-5.08" y1="-2.54" x2="17.78" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-2.54" x2="17.78" y2="17.78" width="0.254" layer="94"/>
+<wire x1="17.78" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="17.78" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
